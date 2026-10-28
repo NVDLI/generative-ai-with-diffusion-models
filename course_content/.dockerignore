@@ -1,0 +1,32 @@
+# Version-control and common local artifacts
+.git
+.gitignore
+**/.DS_Store
+**/*.log
+
+# Python, Jupyter, and local-environment caches
+**/__pycache__
+**/*.py[cod]
+**/.ipynb_checkpoints
+.venv
+**/.venv
+
+# Basic secret files
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+
+# Runtime data; retain only the downloader and its documentation
+tutorials/data/**
+!tutorials/data/README.md
+!tutorials/data/download_flowers.py
+
+# Notebook-generated artifacts; retain empty-directory markers
+tutorials/04_images/**
+!tutorials/04_images/.gitkeep
+tutorials/05_images/**
+!tutorials/05_images/.gitkeep
+tutorials/*.gif
+tutorials/clip.csv

@@ -1,0 +1,103 @@
+version = 1
+
+[[annotations]]
+path = [
+    "course_content/tutorials/00_jupyterlab.ipynb",
+    "course_content/tutorials/01_UNets.ipynb",
+    "course_content/tutorials/02_Diffusion_Models.ipynb",
+    "course_content/tutorials/03_Optimizations.ipynb",
+    "course_content/tutorials/05_CLIP.ipynb",
+    "course_content/tutorials/06_MNIST_Diffusion.ipynb"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "Apache-2.0 AND CC-BY-4.0"
+SPDX-FileComment = "Code cells are Apache-2.0. Markdown and raw cells are CC-BY-4.0. Combined dual-license terms in LICENSES/CC-BY-4.0-Apache2_Dual_License.txt."
+
+[[annotations]]
+path = "course_content/tutorials/04_Classifier_Free_Diffusion.ipynb"
+SPDX-FileCopyrightText = [
+    "2022 Tim Pearce",
+    "2026 NVIDIA CORPORATION & AFFILIATES"
+]
+SPDX-License-Identifier = "Apache-2.0 AND CC-BY-4.0 AND MIT"
+SPDX-FileComment = "Portions are adapted from TeaPearce/Conditional_Diffusion_MNIST under MIT. NVIDIA code cells and modifications are Apache-2.0; NVIDIA Markdown and raw cells are CC-BY-4.0. See THIRD_PARTY_NOTICES.md."
+
+[[annotations]]
+path = [
+    "course_content/tutorials/utils/__init__.py",
+    "course_content/tutorials/utils/other_utils.py",
+    "course_content/tutorials/data/download_flowers.py",
+    "course_content/environment/entrypoint.sh",
+    "course_content/Dockerfile"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+    "course_content/tutorials/images/DLI_Header.png",
+    "course_content/tutorials/images/bernoulli.png",
+    "course_content/tutorials/images/broadcasting.png",
+    "course_content/tutorials/images/groupnorm.png",
+    "course_content/tutorials/images/normal.png"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "NVIDIA-created educational media. NVIDIA names, logos, and trademark rights are not licensed."
+
+[[annotations]]
+path = [
+    "course_content/tutorials/images/FMUNet.png",
+    "course_content/tutorials/images/rev_diffusion.png",
+    "course_content/tutorials/images/shirt_shoe.png",
+    "course_content/tutorials/images/shoe_maybe.png",
+    "course_content/tutorials/images/time_nn.png",
+    "course_content/tutorials/images/weighted_reverse_diffusion.png"
+]
+SPDX-FileCopyrightText = [
+    "2017 Zalando SE",
+    "2026 NVIDIA CORPORATION & AFFILIATES"
+]
+SPDX-License-Identifier = "MIT AND CC-BY-4.0"
+SPDX-FileComment = "NVIDIA-created educational figures that incorporate or depict Fashion-MNIST samples, transformations, or model outputs. See THIRD_PARTY_NOTICES.md."
+
+[[annotations]]
+path = "course_content/tutorials/images/jl_launcher.png"
+SPDX-FileCopyrightText = [
+    "2015-2025 Project Jupyter Contributors",
+    "2026 NVIDIA CORPORATION & AFFILIATES"
+]
+SPDX-License-Identifier = "BSD-3-Clause AND CC-BY-4.0"
+SPDX-FileComment = "NVIDIA-created annotated screenshot of the JupyterLab interface. Project Jupyter and NVIDIA names, logos, and trademark rights are not licensed. See THIRD_PARTY_NOTICES.md."
+
+# NVIDIA-created repository documentation
+
+[[annotations]]
+path = [
+    "CONTRIBUTING.md",
+    "README.md",
+    "SECURITY.md",
+    "THIRD_PARTY_NOTICES.md",
+    "course_content/README.md",
+    "course_content/slides/FOR_OSRB_REVIEW.md",
+    "course_content/slides/THIRD_PARTY_NOTICES.md",
+    "course_content/tutorials/data/README.md"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "NVIDIA-created repository documentation and third-party-notice compilation. Third-party material described by these files retains its original license."
+
+# Repository metadata, dependency manifest, and empty-directory markers
+
+[[annotations]]
+path = [
+    ".gitignore",
+    "CODEOWNERS",
+    "REUSE.toml",
+    "course_content/.dockerignore",
+    "course_content/environment/requirements.txt",
+    "course_content/tutorials/04_images/.gitkeep",
+    "course_content/tutorials/05_images/.gitkeep"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "Apache-2.0"
