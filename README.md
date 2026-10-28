@@ -7,7 +7,7 @@ Learning Institute course. Learners build diffusion models from foundational
 U-Net components, improve them with modern architectural techniques, add
 classifier-free guidance, and connect image generation with CLIP.
 
-Explore the full catalog of NVIDIA DLI courses and training opportunities on our [![training catalogue](https://www.nvidia.com/en-us/training/.)]
+Explore the full catalog of NVIDIA DLI courses and training opportunities on our [![training catalogue](https://www.nvidia.com/en-us/training/?ncid=progr-251837-vt07)]
 
 ## Learning outcomes
 
