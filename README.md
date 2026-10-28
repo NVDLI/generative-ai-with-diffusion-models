@@ -81,34 +81,6 @@ The repository is organized as follows:
 All course modules share one environment because they use the same dependency
 set.
 
-## Validation
-
-Run these lightweight checks from the repository root:
-
-~~~bash
-python3 -m compileall -q course_content/tutorials/utils \
-  course_content/tutorials/data/download_flowers.py
-bash -n course_content/environment/entrypoint.sh
-for notebook in course_content/tutorials/*.ipynb; do
-  jq empty "$notebook"
-done
-~~~
-
-A full runtime check additionally requires building the Docker image and
-executing the notebooks on a CUDA-capable system.
-
-### Troubleshooting torch.compile
-
-If a notebook reports BackendCompilerFailed with Failed to find C compiler,
-the Docker image predates the compiler-toolchain fix required by PyTorch
-Inductor. Rebuild the image from course_content before restarting the
-container:
-
-~~~bash
-cd course_content
-docker build -t oss-genai .
-~~~
-
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). Keep notebook outputs cleared and do
