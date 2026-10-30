@@ -1,5 +1,5 @@
 # Generative AI with Diffusion Models
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue)](https://creativecommons.org/licenses/by/4.0/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
+[![Launch on Brev](https://img.shields.io/badge/Launch%20on-Brev-76B900)](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3LKJrXIms9SYYJgEwo9t9IqqlY1) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue)](https://creativecommons.org/licenses/by/4.0/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
 
 Generative AI with Diffusion Models is an open-source, hands-on NVIDIA Deep
